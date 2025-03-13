@@ -1,19 +1,21 @@
-# prodigy_ml_03
-Cats vs Dogs Classification using SVM
-Overview
-This project implements a Support Vector Machine (SVM) model to classify images of cats and dogs. The dataset is sourced from the Kaggle Cats and Dogs Image Classification dataset. Images are preprocessed and resized, and the SVM model is trained and evaluated for performance.
+# 🐱🐶 SVM-Based Cat vs. Dog Image Classifier  
 
-Features
-Binary Image Classification: Classifies images as either "Cat" or "Dog."
-Image Preprocessing: Resizes images to 64x64 pixels and normalizes pixel values.
-Model Training: Utilizes an SVM with a linear kernel for classification.
-Performance Metrics: Provides accuracy, precision, recall, and F1-score.
-Dataset
-The dataset contains images of cats and dogs, organized into training_set and test_set folders:
+This project classifies **cats and dogs** using **Support Vector Machines (SVMs)**.  
 
-Download the dataset from Kaggle and place it in the project directory.
+## 🔹 Features  
+✅ Loads images from a dataset  
+✅ Resizes and preprocesses images  
+✅ Trains an **SVM model** for classification  
+✅ Evaluates model performance using accuracy & classification reports  
+✅ Visualizes predictions  
 
-Requirements
-Install the required Python libraries before running the project:
+## 🔹 Technologies Used  
+- Python  
+- OpenCV / Keras for Image Processing  
+- Scikit-learn (SVM Model)  
+- Matplotlib (Visualization)  
 
-pip install numpy pandas scikit-learn matplotlib tensorflow keras
+## 🔹 How to Run  
+```bash
+pip install numpy pandas tensorflow scikit-learn matplotlib
+python svm_image_classifier.py
